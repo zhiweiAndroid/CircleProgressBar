@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         progressBarOne = (CustomCircleProgressBar) findViewById(R.id.am_progressbar_one);
         progressBarTwo = (CustomCircleProgressBar) findViewById(R.id.am_progressbar_two);
